@@ -1,0 +1,74 @@
+/* CSS Document */
+
+#logo {
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+#footerLogo {
+	border: 2px solid black;
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+
+footer p{
+	text-align: center;
+}
+
+body {
+	background: white;	
+	font-family: Georgia, sans-serif;
+}
+
+#container {
+	background: white;
+}
+
+.mainPicture {
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.mainPicture img {
+	margin: 10px;
+}
+
+.widgets img{
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.leftJustify {
+	float: left;
+}
+
+.rightJustify {
+	float: right;
+}
+
+.middleRightCol {
+	padding-top: 364px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.footerNav {
+	text-align: center;
+}
+
+.footerNav ul li{
+	padding-top: 30px;
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+
