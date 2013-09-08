@@ -1,5 +1,6 @@
 /* CSS Document */
 
+
 #logo {
 	margin: 0 auto;
 	text-align: center;
@@ -8,29 +9,70 @@
 
 nav {
 	text-align: center;
+	/*background-color: yellow;*/
 }
+
 
 nav ul li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 30px;
-	margin-top:153px;
-	padding-bottom:8px;
+	margin-left: 24px;
+	margin-top:100px;
+	padding-bottom:2px;
 	text-decoration: none;
-	color: black;
-	font-size: 18px;
+	font-size: 14px;
+	/*background-color: orange;*/
 }
 
 nav ul li a{
 	text-decoration: none;
-	color: black;
+	color: #484848;
+	padding-bottom: 25px;
+	/*background-color: red;*/
 }
 
 
-nav ul li:hover{
-	background:url("../images/link_underscore.png") 50% 0 no-repeat;
+nav ul li a:hover{
+	color: #000000;
+	/*font-size:103.58%;*/
+	font-weight: bold;
+}
+	
+
+/*SUBNAV for LOVE, PORTRAITS, EDITORIAL, COMMERCIAL SECTIONs*/
+.subNavLove, .subNavPortraits, .subNavEditorial, .subNavCommercial{
+	text-align: center;
+	display: none;
+	margin-left: 120px;
 }
 
+.subNavLove ul li, .subNavPortraits ul li, .subNavEditorial ul li, .subNavCommercial ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 24px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.subNavLove ul li a, .subNavPortraits ul li a, .subNavEditorial ul li a, .subNavCommercial ul li a  {
+	text-decoration: none;
+	color: #484848;
+}
+
+.subNavLove ul li a:hover, .subNavPortraits ul li a:hover, .subNavEditorial ul li a:hover, .subNavCommercial ul li a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+
+/********END OF SUBNAV for LOVE, PORTRAITS, EDITORIAL, COMMERCIAL SECTIONs ****************/
+
+
+
+li.test {
+	padding-bottom: 30px;
+}
+  
 
 body {
 	background: white;	
@@ -48,6 +90,15 @@ body {
 
 .mainPicture img {
 	margin: 10px;
+}
+
+#instafeed {
+	position: relative;
+    top: 138px;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    /*line-height:100%;*/
 }
 
 .portfolio {
@@ -84,7 +135,7 @@ body {
 }
 
 .footerNav ul li{
-	padding-top: 30px;
+	padding-top: 20px;
 	list-style: none;
 	display: inline-block;
 	margin-left: 30px;
@@ -105,38 +156,36 @@ footer p{
 	text-align: center;
 }
 
-
-/* CSS SPRITE EXAMPLE FROM CLASS:
-;
-#socialMedia ul li.linkedIn {
-	background:url(../images/socialNav.png) 0px 64px;
-}
-#socialMedia ul li.twitter {
-	background:url(../images/socialNav.png) -60px 64px; 
+.catwedding {
+	font-family: Georgia;
 }
 
-#socialMedia ul li.facebook {
-	background:url(../images/socialNav.png) -120px 64px; 
+.catwedding img {
+	margin-bottom: 5px;
 }
 
-#socialMedia ul li.rss {
-	background:url(../images/socialNav.png) -180px 64px; 
+#dividingLineTopPg {
+	margin-top: 10px;
+}
+
+#dividingLineBottomPg {
+	margin-top: 40px;
+}
+
+#pageFwdButton a h1 {
+	padding-top: 40px;
+	text-align: right;
+	color: black;
+}
+
+#pageFwdButton a {
+	text-decoration: none;
+}
+
+#nextPgArrowRight {
+	padding-top: 38px;
 }
 
 
 
-#socialMedia ul li.linkedIn:hover {
-	background:url(../images/socialNav.png) 0px 0px; 
-}
 
-#socialMedia ul li.twitter:hover {
-	background:url(../images/socialNav.png) -60px 0px; 
-}
-
-#socialMedia ul li.facebook:hover {
-	background:url(../images/socialNav.png) -120px 0px; 
-}
-
-#socialMedia ul li.rss:hover {
-	background:url(../images/socialNav.png) -180px 0px; 
-}*/
