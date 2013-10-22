@@ -1,20 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-// OLD LAYOUT WORK WHICH SLID THE DIVS DOWN ON HOVER OF NAV ELEMENTS 
-
-
-
-
 // MOUSEENTER AND MOUSELEAVE FOR LOVE NAVBAR
 
 $('nav ul #subNavOnLove li a').mouseenter(function(){
@@ -131,6 +114,19 @@ $('.subNavOnEditorial').mouseenter(function(){
 });
 
 // *****************END OF COMMERCIAL NAVBAR JQUERY************************
+
+
+
+// MOUSEENTER AND MOUSELEAVE FOR CONTACTS NAVBAR
+
+$('nav ul #subNavOff li a').mouseenter(function(){
+    $('.subNavCommercial').stop(true).slideUp(350, function(){
+
+    });
+});
+
+// *****************END OF 'CONTACTS' NAVBAR JQUERY*********************
+
 
 
 

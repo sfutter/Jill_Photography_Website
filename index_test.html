@@ -16,7 +16,6 @@
     <!-- INSTAGRAM JS -->
     <script type="text/javascript" src="instafeed.js-master/instafeed.min.js"></script>
 
-
 </head>
 
 
@@ -101,7 +100,69 @@
 
             <div class="clear"></div>
 
+<!-- LEFT COLUMN -->
+            <div class="grid_3 widgets">
+                
+                <!-- IMGMAP to create links to HTML files from IMG. http://www.image-maps.com -->
+                <div>
+                    <img src="images/box_220x340_portfolio.png" usemap="#imgMap">
+                </div>  
 
+                <map name="imgMap">
+                <area shape="rect" coords="24,111,194,155" href="index-cat_love_wedding_nickymike.html" alt="wedding" title="love"    />
+                <area shape="rect" coords="24,161,194,205" href="index-cat_portraits_arestauranteur.html" alt="portraits" title="portraits"    />
+                <area shape="rect" coords="24,210,194,254" href="index-cat_commercial_charlottenoruzi.html" alt="commercial" title="commercial"    />
+                <area shape="rect" coords="24,260,194,304" href="index-cat_editorial_omyogamagazine.html" alt="editorial" title="editorial"    />
+                </map>
+
+                <!-- END OF IMGMAP -->
+
+
+                <a href="index-lovelywords.html"><img src="images/box_220x270_recommendations.png"></a>
+                <a href="http://jillfutter.tumblr.com" target="_blank"><img src="images/box_220x150_newsletter.png"></a> 
+                <a href="index-bio.html"><img src="images/box_460x210_aboutjill.png"></a>
+            </div>
+            
+
+            <!-- MIDDLE COLUMN-leftJustify-->
+            <div class="grid_3 widgets">
+                <img src="images/box_460x340_quote.png"> 
+                <a href="index-blogindex.html"><img src="images/box_220x440_blog.png"></a>
+            </div>
+
+            <!-- MIDDLE COLUMN-rightJustify -->
+            <div class="grid_3 widgets middleRightCol">
+                <a href="http://pinterest.com/jillfutter" target="_blank"><img src="images/box_220x350_filmarchive.png"></a> 
+                <a href="http://facebook.com/jillfutterphotography" target="_blank"><img src="images/box_220x150_facebook.png"></a>
+                <a href="http://twitter.com/jilldfutter" target="_blank"><img src="images/box_220x130_twitter.png"></a>
+            </div>
+
+
+            <!-- RIGHT COLUMN -->
+            <div class="grid_3 widgets">
+                <a href="index-contact.html"><img src="images/box_220x140_contact.png"></a>  
+                <div class="grid_1 widgets" id="instafeed"></div>    
+                <a href="http://instagram.com/jillfutter" target="_blank"><img src="images/box_220x370_instagram.png"></a> 
+                <a href="http://raiseourstory.tumblr.com" target="_blank"><img src="images/box_220x484_projects.png"></a> 
+            </div>
+
+            <div class="clear"></div>
+
+
+            <div class="grid_12 footerNav">
+                <ul>
+                    <li><a href="#">BACK TO TOP</a></li>
+                </ul>
+            </div>
+
+
+
+            <footer class="grid_12">
+                <p>Site made with love by Steven Futter. Graphics by Jill Futter.</p>
+            </footer>
+
+        </div><!-- END #container --> 
+    </div><!-- END #wrapper --> 
 
 
 
@@ -112,6 +173,22 @@
     <script src="responsiveslides.min.js"></script>
     <script src="js/javascript_test.js"></script>
 
+
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
+
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 29437617,
+            accessToken: '29437617.467ede5.1b4516677e314b1c910b602785766a47',
+            limit:1
+        });
+    userFeed.run();
+    </script>
 
 
 
