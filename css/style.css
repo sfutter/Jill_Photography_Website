@@ -177,6 +177,14 @@ footer p{
 	margin-top: 25px;
 }
 
+#dividingLineNav hr {
+	margin-top: 25px;
+	/*display: block; height: 1px;*/
+    /*border: 0; */
+    border-top: 1.75px solid black;
+    /*margin: 1em 0; padding: 0; */
+}
+
 #dividingLineBottomPg {
 	margin-top: 40px;
 }
