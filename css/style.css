@@ -52,15 +52,13 @@ nav ul li a:hover{
 }
 	
 
-/*SUBNAV for LOVE, PORTRAITS, EDITORIAL, COMMERCIAL SECTIONs*/
-.subNavLove, .subNavPortraits, .subNavLifestyle, .subNavCommercial{
+/*SUBNAV for WEDDINGS, PORTRAITS, LIFESTYLE SECTIONs*/
+.subNavWeddings, .subNavPortraits, .subNavLifestyle{
 	text-align: center;
 	display: none;
-
-	/*margin-left: 120px;*/
 }
 
-.subNavLove ul li, .subNavPortraits ul li, .subNavLifestyle ul li, .subNavCommercial ul li{
+.subNavWeddings ul li, .subNavPortraits ul li, .subNavLifestyle ul li {
 	list-style: none;
 	display: inline-block;
 	margin-left: 24px;
@@ -70,17 +68,17 @@ nav ul li a:hover{
 	font-family: Georgia;
 }
 
-.subNavLove ul li a, .subNavPortraits ul li a, .subNavLifestyle ul li a, .subNavCommercial ul li a  {
+.subNavWeddings ul li a, .subNavPortraits ul li a, .subNavLifestyle ul li a {
 	text-decoration: none;
 	color: #484848;
 }
 
-.subNavLove ul li a:hover, .subNavPortraits ul li a:hover, .subNavLifestyle ul li a:hover, .subNavCommercial ul li a:hover{
+.subNavWeddings ul li a:hover, .subNavPortraits ul li a:hover, .subNavLifestyle ul li a:hover {
 	color: #000000;
 	text-shadow:0 0 0.5px black;
 }
 
-*******END OF SUBNAV for LOVE, PORTRAITS, EDITORIAL, COMMERCIAL SECTIONs ***************
+/********END OF SUBNAV for WEDDINGS, PORTRAITS, LIFESTYLE SECTIONs ****************/
   
 body {
 	background: white;	
