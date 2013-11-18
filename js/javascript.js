@@ -1,10 +1,12 @@
+
+
 // MOUSEENTER AND MOUSELEAVE FOR LOVE NAVBAR
 
 $('nav ul #subNavOnLove li a').mouseenter(function(){
     $('.subNavPortraits').stop(true).slideUp(350, function(){ 
         $('.subNavEditorial').stop(true).slideUp(350, function(){ 
             $('.subNavCommercial').stop(true).slideUp(350, function(){ 
-	           $('.subNavLove').stop(true).slideDown(350, function(){
+               $('.subNavLove').stop(true).slideDown(350, function(){
                 });
            });
         });
@@ -14,14 +16,14 @@ $('nav ul #subNavOnLove li a').mouseenter(function(){
 
 
 $('nav ul #subNavOff li a').mouseenter(function(){
-	$('.subNavLove').stop(true).slideUp(350, function(){
+    $('.subNavLove').stop(true).slideUp(350, function(){
 
-	});
+    });
 });
 
 
 $('.subNavOnLove').mouseenter(function(){
-	$(this).find(".subNavOnLove").stop().slideToggle();
+    $(this).find(".subNavOnLove").stop().slideToggle();
 });
 
 // *****************END OF LOVE NAVBAR JQUERY*****************************
@@ -114,6 +116,19 @@ $('.subNavOnEditorial').mouseenter(function(){
 });
 
 // *****************END OF COMMERCIAL NAVBAR JQUERY************************
+
+
+
+// MOUSEENTER AND MOUSELEAVE FOR CONTACTS NAVBAR
+
+$('nav ul #subNavOff li a').mouseenter(function(){
+    $('.subNavCommercial').stop(true).slideUp(350, function(){
+
+    });
+});
+
+// *****************END OF 'CONTACTS' NAVBAR JQUERY*********************
+
 
 
 
