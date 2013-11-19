@@ -1,6 +1,5 @@
 
-// MOUSEENTER AND MOUSELEAVE FOR LOVE NAVBAR
-
+// MOUSEENTER LOVE NAVBAR
 $('nav ul #subNavOnWeddings li a').mouseenter(function(){
     $('.subNavPortraits').stop(true).slideUp(350, function(){ 
         $('.subNavLifestyle').stop(true).slideUp(350, function(){ 
@@ -10,12 +9,7 @@ $('nav ul #subNavOnWeddings li a').mouseenter(function(){
     });
 });
 
-
-// *****************END OF LOVE NAVBAR JQUERY*****************************
-
-
-// MOUSEENTER AND MOUSELEAVE FOR PORTRAITS NAVBAR
-
+// MOUSEENTER PORTRAITS NAVBAR
 $('nav ul #subNavOnPortraits li a').mouseenter(function(){
     $('.subNavWeddings').stop(true).slideUp(350, function(){ 
         $('.subNavLifestyle').stop(true).slideUp(350, function(){ 
@@ -25,11 +19,8 @@ $('nav ul #subNavOnPortraits li a').mouseenter(function(){
     });
 });
 
-// *****************END OF PORTRAITS NAVBAR JQUERY************************
 
-
-// // // MOUSEENTER AND MOUSELEAVE FOR EDITORIAL NAVBAR
-
+// MOUSEENTER AND MOUSELEAVE FOR EDITORIAL NAVBAR
 $('nav ul #subNavOnLifestyle li a').mouseenter(function(){
     $('.subNavWeddings').stop(true).slideUp(350, function(){ 
         $('.subNavPortraits').stop(true).slideUp(350, function(){ 
@@ -40,82 +31,33 @@ $('nav ul #subNavOnLifestyle li a').mouseenter(function(){
 });
 
 
-// *****************END OF EDITORIAL NAVBAR JQUERY************************
+// MOUSEENTERs CONTACT OPTION ON NAV BAR. Slide all subnavs up.
+$('nav ul #subNavOff li a').mouseenter(function(){
+    $('.subNavWeddings').stop(true).slideUp(350, function(){ 
+        $('.subNavPortraits').stop(true).slideUp(350, function(){ 
+               $('.subNavLifestyle').stop(true).slideUp(350, function(){
+                });
+        });
+    });
+});
 
 
-// MOUSEENTER AND MOUSELEAVE FOR CONTACTS NAVBAR
+// MOUSEENTER LOGO
+$('#logo').mouseenter(function(){
+    $('.subNavWeddings').stop(true).slideUp(350, function(){ 
+        $('.subNavPortraits').stop(true).slideUp(350, function(){ 
+               $('.subNavLifestyle').stop(true).slideUp(350, function(){
+                });
+        });
+    });
+});
 
-// $('nav ul').mouseleave(function(){
-//     $('.subNavWeddings').stop(true).slideUp(350, function(){
-//         $('.subNavPortraits').stop(true).slideUp(350, function(){
-//             $('.subNavLifestyle').stop(true).slideUp(350, function(){
-//             };
-//         };
-//     });
-// });
-
-// $('nav ul #subNavOff li a').mouseenter(function(){
-//     // $('.subNavWeddings').stop(true).slideUp(350, function(){
-//         // $('.subNavPortraits').stop(true).slideUp(350, function(){
-//             // $('.subNavLifestyle').stop(true).slideUp(350, function(){
-//             // };
-//         // };
-//     // });
-// });
-
-// // *****************END OF 'CONTACTS' NAVBAR JQUERY*********************
-
-
-
-
-// // MOUSEENTER AND MOUSELEAVE FOR OTHER PARTS OF WEBPAGE
-
-// $('.mainPicture img').MOUSEENTER(function(){   
-//     $('.subNavWeddings').stop(true).slideUp(350, function(){
-//         $('.subNavPortraits').stop(true).slideUp(350, function(){
-//             $('.subNavLifestyle').stop(true).slideUp(350, function(){
-//                 // $('.subNavCommercial').stop(true).slideUp(350, function(){
-//                 });
-//             });
-//         });
-//     });
-// });
-
-// // *****************END OF 'OTHER PARTS' NAVBAR JQUERY*********************
-
-
-
-// // MOUSEENTER AND MOUSELEAVE FOR COMMERCIAL NAVBAR
-
-// $('nav ul #subNavOnCommercial li a').mouseenter(function(){
-//     $('.subNavLove').stop(true).slideUp(350, function(){ 
-//         $('.subNavPortraits').stop(true).slideUp(350, function(){ 
-//             $('.subNavEditorial').stop(true).slideUp(350, function(){ 
-//                $('.subNavCommercial').stop(true).slideDown(350, function(){
-//                 });
-//            });
-//         });
-//     });
-// });
-
-
-
-// $('nav ul #subNavOff li a').mouseenter(function(){
-//     $('.subNavEditorial').stop(true).slideUp(350, function(){
-
-//     });
-// });
-
-
-// $('.subNavOnEditorial').mouseenter(function(){
-//     $(this).find(".subNavOnEditorial").stop().slideToggle();
-// });
-
-// *****************END OF COMMERCIAL NAVBAR JQUERY************************
-
-
-
-
-
-
-
+// MOUSEENTER LOGO slide all subnavs up
+$('.mainPicture').mouseenter(function(){
+    $('.subNavWeddings').stop(true).slideUp(350, function(){ 
+        $('.subNavPortraits').stop(true).slideUp(350, function(){ 
+               $('.subNavLifestyle').stop(true).slideUp(350, function(){
+                });
+        });
+    });
+});

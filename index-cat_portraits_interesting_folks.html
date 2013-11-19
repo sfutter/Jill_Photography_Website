@@ -74,19 +74,26 @@
             <div class="grid_12" id="dividingLineTopPg"><hr></div>
 
             <div class="grid_12 catwedding">
-                <h1>charlotte noruzi fiber art</h1>
+                <h1>interesting folks</h1>
                 <p>Keytar Truffaut pickled banjo Brooklyn. Mixtape vegan sartorial meh cornhole, Schlitz biodiesel freegan viral tumblr. Semiotics pitchfork Truffaut, keffiyeh sustainable iPhone master cleanse Cosby sweater brunch shabby chic bicycle rights Williamsburg irony. Narwhal irony Portland bicycle rights. Gastropub bitters authentic, ennui 3 wolf moon ethnic ugh Carles skateboard craft beer chillwave Tonx fingerstache cornhole.</p>
             </div>
 
-            <div class="grid_12 catwedding">
-                <img src="images/cat_lifestyle/charlotte_noruzi_fiber_art/fiber_art_01.jpg">
-                <img src="images/cat_lifestyle/charlotte_noruzi_fiber_art/fiber_art_02.jpg">
-                <img src="images/cat_lifestyle/charlotte_noruzi_fiber_art/fiber_art_03.jpg">
+            <div class="clear"></div>
+
+            <!-- MAIN PIC JQUERY PLUGIN from http://responsiveslides.com-->
+            <div class="grid_12 mainPicture">
+                <ul class="rslides">
+                  <li><img src="images/cat_portraits/interesting_folks_slideshow/interesting_folks_001.jpg" alt=""></li
+                  <li><img src="images/cat_portraits/interesting_folks_slideshow/interesting_folks_002.jpg" alt=""></li
+                  <li><img src="images/cat_portraits/interesting_folks_slideshow/interesting_folks_003.jpg" alt=""></li
+                </ul>
             </div>
 
+            <div class="clear"></div>
 
-            <div class="grid_11" id="pageFwdButton"><a href="index-cat_lifestyle_intimate_tribeca_supper_club.html"><h1>intimate tribeca supper club</h1></a></div>
-            <div class="grid_1" id="nextPgArrowRight"><a href="index-cat_lifestyle_intimate_tribeca_supper_club.html"><img src="images/item_arrow.png"></a></div>
+
+            <div class="grid_11" id="pageFwdButton"><a href="index-cat_portraits_love.html"><h1>love</h1></a></div>
+            <div class="grid_1" id="nextPgArrowRight"><a href="index-cat_portraits_love.html"><img src="images/item_arrow.png"></a></div>
              
 
             <div class="grid_12" id="dividingLineBottomPg"><hr></div>
@@ -104,13 +111,23 @@
                 <p>Site made with love by Steven Futter. Graphics by Jill Futter.</p>
             </footer>
 
-            <!-- JQUERY PLUGIN -->
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-            <script src="responsiveslides.min.js"></script>
-            <script src="js/javascript.js"></script>
 
         </div><!-- END #container --> 
 	</div><!-- END #wrapper --> 
+
+
+        <!-- JQUERY PLUGIN -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+
+    <!-- slideshow -->
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
     
 
     </body>
