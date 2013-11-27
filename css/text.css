@@ -82,5 +82,7 @@ table,
 address,
 fieldset,
 figure {
-  margin-bottom: 10px;   /*changed this from 20px to ensure subnav wasn't too far from main nav on hover.*/
+  margin-bottom: 10px;   changed this from 20px to ensure subnav wasn't too far from main nav on hover.*/
+  /*margin-left: -10px;*/
+  /*margin: -10px;*/
 }

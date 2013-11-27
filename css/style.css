@@ -93,10 +93,11 @@ body {
 	border: 2px solid black;
 	margin-top: 42px;
 	margin-bottom: 20px;
+	padding: 0px;
 }
 
 .mainPicture img {
-	margin: 10px;
+	/*margin: 10px;*/
 }
 
 #instafeed {
@@ -172,10 +173,11 @@ footer p{
 }
 
 #dividingLineTopPg {
-	margin-top: 25px;
+	margin-top: 45px;
+	margin-bottom: 25px;
 }
 
-#dividingLineNav hr {
+.dividingLineNav hr {
 	margin-top: 25px;
 	/*display: block; height: 1px;*/
     /*border: 0; */
