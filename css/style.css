@@ -19,8 +19,8 @@ nav {
 nav ul li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 24px;
-	margin-right: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom:0px;
 	padding-bottom:2px;
 	text-decoration: none;
@@ -235,5 +235,208 @@ footer p{
 }
 
 
+/*Index.html background images*/
+#rates_img {
+    background-image:url(../images/box_220x270_rates.png);
+    display:block;
+    height:270px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#tumblr_img {
+	background-image:url(../images/box_220x150_newsletter.png);
+    display:block;
+    height:150px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#bio_img {
+	background-image:url(../images/box_460x210_aboutjill.png);
+    display:block;
+    height:210px;
+    overflow:hidden;
+    text-indent:210%;
+    white-space:nowrap;
+    width:460px;
+    margin-bottom: 20px;
+}
+
+#quote_img {
+	background-image:url("../images/box_460x340_quote.png");
+	display:block;
+    height:340px;
+    overflow:hidden;
+    text-indent:250%;
+    white-space:nowrap;
+    width:460px;
+    margin-bottom: 20px;
+}
+
+#blog_img {
+	background-image:url("../images/box_220x440_blog.png");
+	display:block;
+    height:440px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#pinterest_img {
+	background-image:url("../images/box_220x350_filmarchive.png");
+	display:block;
+    height:350px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#facebook_img {
+	background-image:url("../images/box_220x150_facebook.png");
+	display:block;
+    height:150px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#twitter_img {
+	background-image:url("../images/box_220x130_twitter.png");
+	display:block;
+    height:130px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#contact_img {
+	background-image:url("../images/box_220x140_contact.png");
+	display:block;
+    height:140px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
 
 
+#instagram_img {
+	background-image:url("../images/box_220x370_instagram.png");
+	display:block;
+    height:370px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+#raise_our_story_tumblr_img	{
+	background-image:url("../images/box_220x484_projects.png");
+	display:block;
+    height:484px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+/*End of index.html css backbround images*/
+
+
+/*steve testing rslides responsive.css*/
+/*.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }*/
+
+
+/*Page forward and back*/
+/*.rslides_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 52%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("..demo/themes/themes.gif/item_arrow.png") no-repeat left top;
+  margin-top: -45px;
+
+}
+
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 52%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("themes/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  }
+
+.rslides_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }*/
+  /*End of rslides responsive.css*/

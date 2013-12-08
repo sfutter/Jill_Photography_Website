@@ -32,7 +32,7 @@ $('nav ul li#subNavOnLifestyle a').mouseenter(function(){
 
 
 // MOUSEENTERs CONTACT OPTION ON NAV BAR. Slide all subnavs up.
-$('nav ul li#subNavOff a').mouseenter(function(){
+$('nav ul li.subNavOff a').mouseenter(function(){
     $('.subNavWeddings').stop(true).slideUp(350, function(){ 
         $('.subNavPortraits').stop(true).slideUp(350, function(){ 
                $('.subNavLifestyle').stop(true).slideUp(350, function(){
